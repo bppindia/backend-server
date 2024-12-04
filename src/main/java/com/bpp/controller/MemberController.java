@@ -17,12 +17,6 @@ public class MemberController {
     @Autowired
     private MemberService memberService;
 
-    /**
-     * Add a new member
-     *
-     * @param member Member object
-     * @return ResponseEntity with the saved Member
-     */
 //    @PostMapping
 //    public ResponseEntity<Member> addMember(@RequestBody Member member) {
 //        try {
@@ -48,11 +42,6 @@ public class MemberController {
     }
 
 
-    /**
-     * Get all members
-     *
-     * @return List of all members
-     */
     @GetMapping
     public ResponseEntity<List<Member>> getAllMembers() {
         try {

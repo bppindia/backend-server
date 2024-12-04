@@ -1,0 +1,6 @@
+com\bpp\repository\MemberRepository.class
+com\bpp\model\response\ApiResponse.class
+com\bpp\BharatiyaPopulartPartyApplication.class
+com\bpp\controller\MemberController.class
+com\bpp\service\MemberService.class
+com\bpp\model\member\Member.class
